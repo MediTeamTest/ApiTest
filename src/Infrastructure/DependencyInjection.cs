@@ -71,6 +71,7 @@ namespace MediTest.Infrastructure
             services.AddAuthentication()
                 .AddIdentityServerJwt();
 
+sdsd dfdfdf
             return services;
         }
     }
