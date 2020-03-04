@@ -19,7 +19,7 @@ using System.Security.Claims;
 namespace MediTest.Infrastructure
 {
     public static class DependencyInjection
-    {
+    {ffff
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration, IWebHostEnvironment environment)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
